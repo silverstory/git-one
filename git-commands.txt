@@ -67,3 +67,6 @@ from "added h1" or b5ed4a0 commit
 
 you still have access to b5ed4a0 commit but git revert command will
 not include changes made to that branch on the created commit with git revert
+
+meaning, git revert and git reset is never recommended
+it will only confuse you in the process
