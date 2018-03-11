@@ -101,3 +101,11 @@ git branch feature-1
 
 show all the branches
 git branch -a
+
+delete a branch
+git branch -D feature-1
+
+small caps -d flag will only work once you've merged the branch
+
+to create a branch and check it out as well, use;
+git checkout -b feature-2
