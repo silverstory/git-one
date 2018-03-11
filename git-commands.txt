@@ -98,3 +98,6 @@ master branch. To create a branch, just type;
 git branch {nameofbranch}
 example:
 git branch feature-1
+
+show all the branches
+git branch -a
