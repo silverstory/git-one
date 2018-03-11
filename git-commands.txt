@@ -109,3 +109,13 @@ small caps -d flag will only work once you've merged the branch
 
 to create a branch and check it out as well, use;
 git checkout -b feature-2
+
+
+MERGING branch | branches to master branch
+first you have to be in the branch you wanna merge into
+normally, the master branch
+to merge a branch into the master branch, type;
+git merge {nameofbranch-to-merge-in}
+
+git merge feature-1
+
