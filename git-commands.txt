@@ -36,21 +36,3 @@ git log
 
 show all commits in short simple form
 git log --oneline
-
-will return
-λ git log --oneline
-b5ed4a0 (HEAD -> master) added h1
-67d7a40 added js file
-0d5501d added log --oneline command reference to commands text file
-de7b64d added commit command reference to git-commands text file
-17c8a77 changed body font size
-ebd52f2 added index title
-69f4771 added index and styles. my first commit
-
-go back to a particular commit via git checkout
-git checkout ebd52f2
-
-note: ebd52f2 is the commit id returned from git log --oneline
-
-you can go back to the most latest branch commit using:
-git check out master
