@@ -33,3 +33,6 @@ note: -m stands for message and message must be inside double qoutes
 
 show all commits
 git log
+
+show all commits in short simple form
+git log --oneline
