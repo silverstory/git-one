@@ -58,6 +58,7 @@ git check out master
 if you want to undo or remove all changes made from a particular commit,
 you can use
 git revert {commitid}
+then type :wq and enter
 
 e.g. git revert b5ed4a0
 which was "added h1"
@@ -119,3 +120,8 @@ git merge {nameofbranch-to-merge-in}
 
 git merge feature-1
 
+Note: If while merging, you encounter a CONFLICT error
+you just have to edit the conflicting files manually
+to satisfy the teams needs and then issue;
+git commit
+then type :wq and enter
