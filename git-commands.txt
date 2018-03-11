@@ -1,0 +1,28 @@
+git config --global user.name "iameprel"
+git config --global user.email "iameprel@am.com"
+
+
+create repo
+ note a repo has three stages : modified | staged | commited
+
+on project folder type
+
+git init
+
+check status
+git status
+
+stage a file
+git add index.html
+
+stage all modified files
+git add .
+or
+git add -A
+
+remove a currently staged file
+git rm --cached index.html or {filename.ext}
+
+remove all files tha are staged
+git rm --cached -r .
+
