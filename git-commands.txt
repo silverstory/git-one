@@ -90,4 +90,11 @@ git reset {commitid} --hard
 
 warning: do not use this unless you are really really really sure that you need it.
 
- 
+// BRANCHES | BRANCHING
+now if you want to create a feature but do not want to mess up the master branch,
+and then when you are happy with the feature you created and everybody thinks
+that it does not messes up the master branch's code, you can merge it back to
+master branch. To create a branch, just type;
+git branch {nameofbranch}
+example:
+git branch feature-1
