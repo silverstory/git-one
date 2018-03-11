@@ -70,3 +70,24 @@ not include changes made to that branch on the created commit with git revert
 
 meaning, git revert and git reset is never recommended
 it will only confuse you in the process
+
+but okay, incase you really wanted to reset to a particular commit
+you want to go to, then you can do;
+git reset {commitid}
+
+though you will not be able to access anything after the commit you selected,
+remember that the reset command will get you back in time to a particular commit
+you want to got to but it will not change anything in your working directory,
+not yet, until you include the --hard flag
+meaning you can still see the latest changes you've made in your editor and you
+may still change your mind by re-adding it to staging and commit them again
+
+well to satisfy your curiosity, here is the reset command that will permanently
+make your repo and working directory go to a particular commit.
+note that by passing the --hard flag, it's not gonna retain any kind of changes
+from the commit afterwards and in the editor as well.
+git reset {commitid} --hard
+
+warning: do not use this unless you are really really really sure that you need it.
+
+ 
