@@ -26,3 +26,10 @@ git rm --cached index.html or {filename.ext}
 remove all files tha are staged
 git rm --cached -r .
 
+commit changes
+git commit -m "changed body font size"
+
+note: -m stands for message and message must be inside double qoutes
+
+show all commits
+git log
