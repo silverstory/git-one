@@ -131,3 +131,14 @@ GITHUB
 push code to github
 git push https://github.com/silverstory/git-one.git master
 
+assign and use an alias so that you will not type
+the long url again and again.
+git remote add origin {git repo url}
+or
+git remote add origin https://github.com/silverstory/git-one.git
+
+now push it with
+git push origin {branch name}
+or
+git push origin master
+
