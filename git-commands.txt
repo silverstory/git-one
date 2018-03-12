@@ -194,3 +194,8 @@ You do NOT want to publish a change/commit or merge a feature
 branch to a production code/branch unless everyone else agree
 that it should be commited in there.
 
+then to push this branch to github as an additional branch
+git push origin {branch name}
+or
+git push origin feature-A
+
