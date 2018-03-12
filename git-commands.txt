@@ -163,3 +163,9 @@ need to set an alias manually
 to check the list or details of a repo's alias, you use;
 git remote -v
 
+update an existing current local repo clone from github before
+git pull origin master
+
+what this does is it fetches all the code from the remote
+and then it merges it into the master branch
+
