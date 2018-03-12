@@ -142,3 +142,8 @@ git push origin {branch name}
 or
 git push origin master
 
+clone an existing repository
+git clone {git repo url}
+or
+git clone https://github.com/silverstory/git-two.git
+
