@@ -125,3 +125,9 @@ you just have to edit the conflicting files manually
 to satisfy the teams needs and then issue;
 git commit
 then type :wq and enter
+
+GITHUB
+
+push code to github
+git push https://github.com/silverstory/git-one.git master
+
