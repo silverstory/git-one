@@ -172,3 +172,25 @@ with new modifications from remote github.
 what this does is it fetches all the code from the remote
 and then it merges it into the master branch
 
+
+COLLABORATION
+
+create a branch from the master branch
+git checkout -b {branch name}
+or
+git checkout -b feature-A
+
+What we want to do now is to create a branch for this repo
+and then upload the created branch to github.
+
+What we do NOT want to do is to merge this branch to the
+master branch locally then upload the master branch to github
+because other devs may not like the changes you commited and
+it must not yet be put into the master branch on github
+because it was not reviewed first by the contributors.
+
+Always treat the master branch as the production code/branch.
+You do NOT want to publish a change/commit or merge a feature
+branch to a production code/branch unless everyone else agree
+that it should be commited in there.
+
