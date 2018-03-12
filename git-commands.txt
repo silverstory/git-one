@@ -129,10 +129,18 @@ then type :wq and enter
 GITHUB
 
 push code to github
+
+note: if you CLONED a repo down from github.com
+      you do not need to do the
+        --  git remote add origin command  --
+      You only do it when you have an EXISTING
+      local repo that you have uploaded to github
+
+meantime, to push to github manually, we will use;
 git push https://github.com/silverstory/git-one.git master
 
-assign and use an alias so that you will not type
-the long url again and again.
+for an existing local repo, you may assign and use an alias
+so that you will not type the long url again and again.
 git remote add origin {git repo url}
 or
 git remote add origin https://github.com/silverstory/git-one.git
@@ -146,4 +154,12 @@ clone an existing repository
 git clone {git repo url}
 or
 git clone https://github.com/silverstory/git-two.git
+
+note that when you clone a repo down from github
+it will already setup an origin alias for you. that
+happens when you clone a repo. for local repo, you
+need to set an alias manually
+
+to check the list or details of a repo's alias, you use;
+git remote -v
 
