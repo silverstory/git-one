@@ -1,0 +1,27 @@
+show all the branches
+git branch -a
+
+to create a branch and check it out as well, use;
+git checkout -b feature-1
+
+push branch to github
+git push origin {branch name}
+
+
+MERGING branch to master branch
+first you have to be in the branch you wanna merge into
+normally, the master branch
+git checkout master
+
+to merge a branch into the master branch, type;
+git merge feature-1
+
+
+
+
+create a branch without checking out
+git branch feature-1
+
+delete a branch
+git branch -D feature-1
+small caps -d flag will only work once you've merged the branch
